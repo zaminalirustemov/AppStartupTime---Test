@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "516027974073",
+    "project_id": "to-do-95163",
+    "storage_bucket": "to-do-95163.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516027974073:android:f6e68f3e225729aaad3668",
+        "android_client_info": {
+          "package_name": "com.lahza.todo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgrydayhv7XLYwyfMjbQqlocXUMt1IwVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

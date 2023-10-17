@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">To Do</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="image_view">Image View</string>
+
+    <string name="splash_fragment_to_do">To Do</string>
+
+    <string name="sign_up_fragment_sign_up">Sign Up</string>
+    <string name="sign_up_fragment_enter_your_email">Enter your email</string>
+    <string name="sign_up_fragment_enter_your_password">Enter your password</string>
+    <string name="sign_up_fragment_next_button">Next button</string>
+    <string name="sign_up_fragment_already_registered">Already Registered !!</string>
+    <string name="sign_up_fragment_sign_in">Sign In</string>
+
+    <string name="sign_in_fragment_sign_in">Sign In</string>
+    <string name="sign_in_fragment_not_registered_yet">Not Registered Yet !!</string>
+    <string name="sign_in_fragment_sign_up">Sign up</string>
+    <string name="categories">Categories</string>
+    <string name="meal_name">Meal Name</string>
+    <string name="lahza">Lahza</string>
+
+</resources>
