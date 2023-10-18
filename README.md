@@ -19,4 +19,7 @@
 
 - Hilt: Dependency injection framework used to inject dependencies in Android applications.
 
+- ProGuard & R8: We will optimize our Android application using optimization tools to reduce its size and enhance its performance.
+  
 - Chucker: Monitors network traffic and aids in debugging your application.
+
