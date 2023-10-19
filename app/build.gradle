@@ -21,7 +21,11 @@ android {
     }
 
     buildTypes {
+        debug{
+            buildConfigField("String", "ORIGINAL_STRING" , "\"StringInfo\"")
+        }
         release {
+            buildConfigField("String", "ORIGINAL_STRING" , "\"StringInfo\"")
             minifyEnabled true
             shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
@@ -37,6 +41,7 @@ android {
     }
     buildFeatures {
         viewBinding true
+        buildConfig true
     }
 }
 
@@ -81,7 +86,7 @@ dependencies {
     debugImplementation "com.github.chuckerteam.chucker:library:$chucker_version"
     releaseImplementation "com.github.chuckerteam.chucker:library-no-op:$chucker_version"
 
-//    // JobScheduler
-//    implementation 'com.firebase:firebase-jobdispatcher:0.8.6'
+    //    // JobScheduler
+    //    implementation 'com.firebase:firebase-jobdispatcher:0.8.6'
 
 }

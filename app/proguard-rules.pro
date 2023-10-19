@@ -21,3 +21,7 @@
 #-renamesourcefileattribute SourceFile
 
 -keep class com.lahza.todo.viewModel.* { *; }
+
+-keep class com.lahza.todo.BuildConfig{
+    public static final java.lang.String ORIGINAL_STRING;
+}
